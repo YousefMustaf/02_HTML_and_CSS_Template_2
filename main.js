@@ -68,7 +68,7 @@
         if (entries[entries.length - 1].isIntersecting) play();
         else reset();
       },
-      { threshold: 0.4 }
+      { threshold: 0.1 }
     ).observe(holder);
   } else {
     play();
